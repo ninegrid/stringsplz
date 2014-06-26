@@ -1,5 +1,9 @@
-var through = require('through2');
+var through = require('through');
 
-module.exports = through(function(chunk,enc,cb){
-  this.push(chunk.toString() + '\n');
+module.exports = through(function write(data) {
+    this.emit('data', data.toString() + '\n');
+  },
+  function end () {
+    this.emit('end');
 });
+
