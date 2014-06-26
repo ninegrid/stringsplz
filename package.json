@@ -1,7 +1,7 @@
 {
   "name": "stringsplz",
-  "version": "0.1.0",
-  "description": "A toString()-ing through2 transform stream.",
+  "version": "0.1.2",
+  "description": "A simple toString()-ing through stream.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "http://github.com/ninegrid/stringsplz"
   },
   "keywords": [
-    "through2",
+    "through",
     "transform",
     "stream",
     "string",
