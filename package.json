@@ -1,0 +1,29 @@
+{
+  "name": "stringsplz",
+  "version": "0.1.0",
+  "description": "A toString()-ing through2 transform stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ninegrid/stringsplz"
+  },
+  "keywords": [
+    "through2",
+    "transform",
+    "stream",
+    "string",
+    "toString()"
+  ],
+  "author": "Daniel Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninegrid/stringsplz/issues"
+  },
+  "homepage": "https://github.com/ninegrid/stringsplz",
+  "dependencies": {
+    "through2": "^0.5.1"
+  }
+}
